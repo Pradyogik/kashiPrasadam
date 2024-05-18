@@ -1,0 +1,109 @@
+.registerContainer{
+    background-image: url('../../images/Group\ 271.png');
+    background-repeat: no-repeat;
+    background-position: auto;
+    display: flex;
+    
+}
+.formContainer{
+    width: 35%;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.registerImageContainer{
+    margin-right: 7rem;
+}
+.registerImageContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.formContainer input{
+    border: 2px solid #F26414;
+}
+.formContainer label{
+    font-weight: 500;
+}
+.formContainer a {
+    text-decoration: underline;
+    color: black;
+}
+.registerSubmit{
+    background-color: #F26414;
+    font-weight: 500;
+    color: white;
+    
+}
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 767px) {
+   
+    .registerContainer{
+        flex-direction: column;
+    }
+    .registerImageContainer{
+        margin-right: 0;
+    }
+    .formContainer{
+        width: 100%;
+    }
+    
+}
+/* Tablets (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .registerContainer{
+        flex-direction: column;
+        margin: 0 !important;
+    }
+    .formContainer{
+        width: 90%;
+        margin: 3rem !important;
+    }
+    .registerImageContainer{
+        margin: 0 !important;
+    }
+}
+/* Small Laptops and Desktops */
+
+ @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+   
+    
+    .registerImageContainer{
+   
+        margin: 0 !important;
+        justify-content: space-between;
+        flex-grow: 2;
+    }
+    .formContainer{
+        width: 47%;
+        margin: 0 !important;
+        margin-right: 1rem !important;
+        margin-top: 2rem !important;
+
+    }
+  }
+  
+  /* Medium to Large Desktops */
+  @media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .registerImageContainer img {
+        object-fit: none;
+    }  }
+  
+  /* Large Desktops and TVs */
+ @media only screen and (min-width: 1440px)  {
+    .registerImageContainer{
+        margin: 0 !important;
+        justify-content: space-between;
+        flex-grow: 2;
+    }
+    .formContainer{
+        width: 47%;
+        margin: 0 !important;
+        margin-right: 1rem !important;
+        margin-top: 2rem !important;
+        flex-grow: 1;
+    }
+  } 
+  

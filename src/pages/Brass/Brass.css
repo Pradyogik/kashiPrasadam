@@ -1,0 +1,17 @@
+.BrassSection{
+    display: flex;
+    background-image: url('../../images/Group\ 272.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+    /* Styles for mobile phones in portrait orientation */
+    .BrassSection {
+        flex-direction: column;
+    }
+    .filterDiv{
+        width: 340px;
+        padding: 3rem !important;
+    }
+  }

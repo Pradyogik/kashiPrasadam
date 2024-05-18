@@ -1,0 +1,9 @@
+.filterDiv{
+    background-color: white !important;
+    width: 250px;
+    border-radius: 15px;
+    color: #848484;
+}
+.filterDiv .form-check{
+    margin-bottom: .25rem;
+}

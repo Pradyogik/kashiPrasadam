@@ -1,0 +1,54 @@
+.navbar{
+    background-color: #FDF7EB;
+}
+.SubHeader .navbar{
+    background-color: #FECEAD !important;
+    /* margin-top: 6rem; */
+}
+
+.btns{
+    border: none;
+    background: none;
+}
+.searchDiv{
+    position: relative;
+}  
+.searchDiv img{
+    background: none;
+}  
+.searchDiv i{
+position: absolute;
+left: 1rem;
+}
+.searchInput{
+    width: 30rem !important;
+    background-color: #FDF7EB;
+    border-radius: 25px;
+    border-color: #F26414;
+}
+.SubHeader .nav-item{
+    border-right: 2px solid #F26414;
+    font-weight: 700;
+}
+.SubHeader .nav-item .nav-link{
+    font-weight: 700;
+    color: #F26414;
+}
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+    .searchInput{
+        width: 20rem !important;
+    }
+    .nav-item{
+        margin-right: 0 !important;
+    }
+    #navbarSupportedContent .navbar-nav{
+      
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .SubHeader .nav-item{
+        border-right: none;
+    }
+  }
+

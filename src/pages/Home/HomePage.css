@@ -1,0 +1,381 @@
+.categoriesContainer {
+  /* background-image: url("../../images/Group\ 267.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fdf7eb; */
+  position: relative;
+  padding: 0;
+}
+.categoriesSubContainer a:hover{
+  text-decoration: none !important;
+}
+.catogoryFooterImg {
+  /* padding-top: 10rem; */
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  background-color: #fdf7eb;
+}
+.categoriesSubContainer {
+  position: absolute;
+  top: -7rem;
+  margin: 0 3.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 10;
+  /* background-color:  #fdf7eb; */
+}
+/* .categoriesSubContainer div:nth-child(1){
+    background-image: url("../../images/Handicraft.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.card-img-overlay h5 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.card {
+  border: none;
+  border-radius: 25px;
+  margin-right: 2rem;
+}
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+  /* Styles for mobile phones in portrait orientation */
+  .categoriesSubContainer {
+    position: relative;
+    top: 0;
+    margin: 1rem 1rem;
+
+    flex-wrap: wrap;
+  }
+  .card {
+    border: none;
+    border-radius: 25px;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+    /* width: 90%; */
+  }
+  .catogoryFooterImg {
+    display: none;
+  }
+  .categoriesContainer {
+    background-color: #fdf7eb;
+  }
+}
+
+/* Mobile Phones (Landscape) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Styles for mobile phones in landscape orientation */
+  .categoriesSubContainer {
+    position: relative;
+    top: 0;
+    margin: 1rem 1rem;
+    flex-wrap: wrap;
+  }
+  .card {
+    border: none;
+    border-radius: 25px;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+    width: 90%;
+  }
+  .catogoryFooterImg {
+    display: none;
+  }
+  .categoriesContainer {
+    background-color: #fdf7eb;
+  }
+}
+
+/* Tablets (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Styles for tablets in portrait orientation */
+  .categoriesSubContainer {
+    top: -3.5rem;
+    margin: 0;
+    margin-left: 1rem;
+  }
+  .card {
+    margin-right: 1rem;
+  }
+  .card-img-overlay h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+  .catogoryFooterImg {
+    padding-top: 4rem;
+  }
+}
+
+/* Tablets (Landscape) */
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  /* Styles for tablets in landscape orientation */
+  .categoriesSubContainer {
+    top: -3.5rem;
+    margin: 0;
+    margin-left: 1rem;
+  }
+  .card {
+    margin-right: 1rem;
+  }
+  .card-img-overlay h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+  .catogoryFooterImg {
+    padding-top: 4rem;
+  }
+}
+
+/* Small Laptops and Desktops */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* Styles for small laptops and desktops */
+  .categoriesSubContainer {
+    top: -3.5rem;
+    margin: 0;
+    margin-left: 1rem;
+  }
+  .card {
+    margin-right: 1rem;
+  }
+  .card-img-overlay h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+  .catogoryFooterImg {
+    padding-top: 5rem;
+  }
+}
+
+/* Medium to Large Desktops */
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  /* Styles for medium to large desktops */
+  .categoriesSubContainer {
+    top: -5rem;
+    margin: 0 3rem 0 3.1rem;
+    padding: 0;
+  }
+  .card {
+    margin-right: 3rem;
+  }
+  .card:last-child {
+    margin-right: 0;
+  }
+  .catogoryFooterImg {
+    padding-top: 3rem;
+  }
+}
+
+/* Large Desktops and TVs */
+@media only screen and (min-width: 1440px) {
+  /* Styles for large desktops and TVs */
+  .categoriesSubContainer {
+    top: -9rem;
+    margin: 0 6rem 0 6.1rem;
+    padding: 0;
+  }
+  .card {
+    margin-right: 6rem;
+  }
+  .card:last-child {
+    margin-right: 0;
+  }
+  .card-img-overlay h5 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 1677px) {
+  .categoriesSubContainer {
+    top: -8.4rem;
+    /* margin: 0 9rem 0 9.1rem ; */
+  }
+  .card {
+    margin-right: 8rem;
+    /* height: 10rem; */
+    width: 300px;
+  }
+  .card:last-child {
+    margin-right: 0rem;
+  }
+  .card-img-overlay h5 {
+    font-size: 2.5rem;
+  }
+}
+/* to complete this card section till 2560 px  */
+/* our bestseller starts here */
+.OurBestSellerContainer {
+  background-color: #fdf7eb;
+}
+.card-body {
+  padding: 0;
+  text-align: left;
+}
+.card-text {
+  text-align: left;
+  padding-left: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card-body h6 {
+  font-weight: 700;
+  display: inline-block;
+  padding-left: 1rem;
+}
+.card-body p:last-child {
+  display: inline-block;
+  padding-left: 1rem;
+  color: grey;
+  text-decoration: line-through;
+}
+.bestSellerCard {
+  border-radius: 25px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+  margin: 1rem;
+}
+.bestSellerCard:last-child {
+  margin-right: 1rem;
+}
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.OurBestSellerChild1 button {
+  text-decoration: underline;
+  color: #f26414;
+  border: none;
+  background: none;
+}
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+  /* Styles for mobile phones in portrait orientation */
+  .OurBestSellerContainer {
+    padding: 0;
+  }
+  .OurBestSellerChild2 {
+    padding-left: 1.6rem !important;
+    padding-right: 1.6rem !important;
+  }
+}
+
+/* Mobile Phones (Landscape) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Styles for mobile phones in landscape orientation */
+  .OurBestSellerContainer {
+    padding: 0;
+  }
+  .OurBestSellerChild2 {
+    padding-left: 1.6rem !important;
+    padding-right: 1.6rem !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .OurBestSellerContainer {
+    padding: 0;
+  }
+  .OurBestSellerChild2 {
+    padding-left: 1.6rem !important;
+    padding-right: 1.6rem !important;
+  }
+  .bestSellerCard {
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+  .bestSellerCard:last-child {
+    margin-right: 0;
+  }
+}
+
+/* new arrivals starts here */
+.newArrivalsContainer {
+  padding-top: 5rem;
+  background-color: #fdf7eb;
+  background-image: url("../../images/Group\ 270.png");
+  background-repeat: no-repeat;
+  background-position: top top;
+}
+
+.newArrivalsCard {
+  border-radius: 25px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+  margin: 1rem;
+}
+.newArrivalsCard:last-child {
+  /* margin-right: 1rem; */
+}
+.newArrivalsChild1 button {
+  text-decoration: underline;
+  color: #f26414;
+  border: none;
+  background: none;
+}
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+  /* Styles for mobile phones in portrait orientation */
+  .newArrivalsContainer {
+    padding: 0;
+  }
+  .newArrivalsChild2 {
+    padding-left: 1.6rem !important;
+    padding-right: 1.6rem !important;
+  }
+}
+
+/* Mobile Phones (Landscape) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Styles for mobile phones in landscape orientation */
+  .newArrivalsContainer {
+    padding: 0;
+  }
+  .newArrivalsChild2 {
+    padding-left: 1.6rem !important;
+    padding-right: 1.6rem !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .newArrivalsContainer {
+    padding-top: 10rem;
+    /* background-position: 160px 160px; */
+  }
+  .newArrivalsChild2 {
+    padding-left: 1.6rem !important;
+    padding-right: 1.6rem !important;
+  }
+  .newArrivalsCard {
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+  /* .newArrivalsCard:last-child {
+    margin-right: 0rem;
+  } */
+}
+
+/* image Collage starts here */
+
+.imageCollage {
+  background-image: url("../../images/Group\ 269.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-bottom: 6rem !important;
+}
+/* deals of the day starts here */
+.DODNav .nav-link {
+  color: #848484 !important;
+  font-weight: 500 !important;
+}
+
+.DODNav .nav-link.active {
+  color: #f26414 !important;
+  text-decoration: underline;
+}

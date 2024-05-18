@@ -1,0 +1,8 @@
+
+.rudrakshaSection{
+    display: flex;
+    /* flex-direction: ; */
+    background-image: url('../../images/Group\ 272.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}

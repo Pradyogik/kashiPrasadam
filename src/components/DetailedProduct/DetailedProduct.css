@@ -1,0 +1,316 @@
+.detailedProduct{
+    background-image: url('../../images/Group\ 275.png');
+    background-repeat: no-repeat; 
+}
+
+.productImagesDiv{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* outline: gray solid 1px; */
+}
+.productDiv{
+    outline: rgb(128 128 128 / 20%) solid 1px;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    background-color: white;
+  
+}
+
+
+/* .image-gallery{
+width: 100%;
+height: 100%;
+   
+}  */
+.image-gallery img{
+    width: 100%;
+    /* height: 80%; */
+    object-fit: cover;
+   border-radius: 5px;
+   margin-bottom: .25rem;
+}
+ .thumbnails{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* outline: gray solid 1px; */
+   border-radius: 5px;
+
+}
+.productImagesDiv li{
+    list-style-type: none;
+    padding: 0;
+    outline: rgb(128 128 128 / 20%) solid 1px;
+    border-radius: 5px;
+
+}
+.productImagesDiv li img{
+   border-radius: 5px !important;
+
+}
+.productContentDiv{
+    width: 70%;
+}
+.title_ShareDiv{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.title_ShareDiv button{
+    border: none;
+    outline: rgb(128 128 128 / 20%) solid 1px;
+    padding: .5rem;
+    background-color: white;
+    border-radius: 5px;
+}
+.title_ShareDiv button:nth-child(1) , .title_ShareDiv button:nth-child(2),.title_ShareDiv button:nth-child(3), .title_ShareDiv button:nth-child(4){
+    outline: none;
+}
+
+.title_ShareDiv div{
+    position: absolute;
+    top: 1.5rem;
+    right: 0rem;
+}
+.font700{
+    font-weight: 700;
+}
+.font600{
+    font-weight: 600;
+}
+.font500{
+    font-weight: 500;
+}
+.font400{
+    font-weight: 400;
+}
+.necessityDiv{
+    width: 50%;
+}
+/* accordian */
+.accordian{
+    background-color: white;
+    outline: rgb(128 128 128 / 20%) solid 1px;
+    border-radius: 5px;
+}
+.productNav{
+    background-color: #FECEAD ;
+}
+.productNav a{
+    color: #63382F;
+    font-weight: 500;
+    
+}
+
+.productNav .nav-link.active{
+    border-bottom: 3px solid #F26414;
+}
+.table-responsive td{
+    border-color: #F26414;
+
+}
+.table-responsive tr td:first-child{
+    font-weight: 600;
+    color: #63382F;
+}
+.table-responsive tr td:nth-child(2){
+    color: #8C8C8C;
+}
+.discriptionDiv{
+    background-color: #fddece;
+}
+.specificationDiv{
+    background-color: #fddece;
+}
+
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+    /* Styles for mobile phones in portrait orientation */
+    .productDiv{
+        flex-direction: column;
+       
+    }
+    .productImagesDiv{
+        width: 100%;
+    }
+    .productContentDiv {
+        width: 100%;
+        padding-left: 0 !important;
+       
+    }
+    .necessityContainer{
+        flex-direction: column;
+    }
+    .necessityDiv{
+        width: 100%;
+    }
+    .addBtnDiv button{
+        width: auto !important;
+    }
+    .assuranceDiv{
+        margin-left: 0 !important;
+
+    }
+    .thumbnails li img{
+        width: 75px !important;
+        height: 75px !important;
+    }
+    .shareContainer{
+        flex-direction: column;
+    }
+    .title_ShareDiv div {
+        position: absolute;
+        top: 2rem;
+        right: 0.50rem;
+    }
+    .QuantityDiv p:first-child{
+        margin-right: 0 !important;
+    }
+  }
+  
+  /* Mobile Phones (Landscape) */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Styles for mobile phones in landscape orientation */
+    .productDiv{
+        flex-direction: column;
+    }
+    .productImagesDiv{
+        width: 100%;
+    }
+    .productContentDiv {
+        width: 100%;
+        padding-left: 0 !important;
+       
+    }
+    .necessityContainer{
+        flex-direction: column;
+    }
+    .necessityDiv{
+        width: 100%;
+    }
+    .assuranceDiv{
+        margin-left: 0 !important;
+        
+    }
+    #pincode{
+        margin-left: 0 !important;
+    }
+  }
+  
+  /* Tablets (Portrait) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles for tablets in portrait orientation */
+    .productDiv{
+        flex-direction: column;
+    }
+    .productImagesDiv{
+        width: 100%;
+    }
+    .productContentDiv {
+        width: 100%;
+        padding-left: 0 !important;
+       
+    }
+    .necessityContainer{
+        flex-direction: column;
+    }
+    .necessityDiv{
+        width: 100%;
+    }
+    .assuranceDiv{
+        margin-left: 0 !important;
+    }
+    .thumbnails li img{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    #pincode{
+        margin-left: 0 !important;
+    }
+  }
+  
+  /* Tablets (Landscape) */
+  @media only screen and (min-width: 992px) and (max-width: 1023px) {
+    /* Styles for tablets in landscape orientation */
+    .productDiv{
+        flex-direction: column;
+    }
+    .productImagesDiv{
+        width: 100%;
+    }
+    .productContentDiv {
+        width: 100%;
+        padding-left: 0 !important;
+       
+    }
+    .necessityContainer{
+        flex-direction: column;
+    }
+    .necessityDiv{
+        width: 100%;
+    }
+    .assuranceDiv{
+        margin-left: 0 !important;
+    }
+    .thumbnails li img{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    #pincode{
+        margin-left: 0 !important;
+    }
+  }
+  
+  /* Small Laptops and Desktops */
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    /* Styles for small laptops and desktops */
+    .productDiv{
+        flex-direction: column;
+    }
+    .productImagesDiv{
+        width: 100%;
+    }
+    .productContentDiv {
+        width: 100%;
+        padding-left: 0 !important;
+       
+    }
+    .necessityContainer{
+        flex-direction: column;
+    }
+    .necessityDiv{
+        width: 100%;
+    }
+    .assuranceDiv{
+        margin-left: 0 !important;
+    }
+    .thumbnails li img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    #pincode{
+        margin-left: 0 !important;
+    }
+  }
+  
+  /* Medium to Large Desktops */
+  @media only screen and (min-width: 1200px) and (max-width: 1439px) {
+    .necessityDiv{
+        width: 55%;
+    }
+    .necessityDiv input{
+        margin-left: 0 !important;
+    }
+  }
+  
+  /* Large Desktops and TVs */
+  @media only screen and (min-width: 1440px) {
+    /* Styles for large desktops and TVs */
+    .thumbnails li img{
+        width: 100px !important;
+        height: 100px !important;
+    }
+  }
+  
