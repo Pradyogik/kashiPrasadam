@@ -17,6 +17,7 @@ function Filter(){
     return(<>
     <div  className="filterDiv p-3 mr-5">
 <h5 className="text-dark">Filters</h5>
+<div className="filtersContainer">
 <div className="firstSection ml-2 mb-4">
 <h6>Pricing</h6>
 <div class="form-check">
@@ -135,6 +136,7 @@ New Arrivals
 <label class="form-check-label" for="defaultCheck18">
 <img src={fiveStarImg} />
 </label>
+</div>
 </div>
 </div>
 </div>

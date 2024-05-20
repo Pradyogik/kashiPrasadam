@@ -122,7 +122,7 @@ function Register(){
   
 </form>
 <p className="mt-3 text-muted">By creating an account, you agree to our  <NavLink to={''}>Terms of Use </NavLink> and our <NavLink to={""}>Privacy Policy</NavLink>.</p>
-<p className="text-muted"> Already have an account ?   <NavLink to={""}>Sign-in</NavLink>.</p>
+<p className="text-muted"> Already have an account ?   <NavLink to={"/login"}>Sign-in</NavLink>.</p>
 
         </div>
     </div>

@@ -5,13 +5,49 @@
     background-size: auto;
 }
 /* Mobile Phones (Portrait) */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
     /* Styles for mobile phones in portrait orientation */
     .BrassSection {
         flex-direction: column;
     }
     .filterDiv{
-        width: 340px;
+        width: 320px;
         padding: 3rem !important;
+        margin-bottom: 1rem;
+  
+    }
+  }
+/* Tablets (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for tablets in portrait orientation */
+    .BrassSection {
+        flex-direction: column;
+    }
+    .filterDiv{
+        width: auto;
+        padding: 3rem !important;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0 !important;
+    }
+    .filtersContainer{
+        display: flex;
+        /* flex-grow: 1; */
+    }
+    .filtersContainer div{
+       flex-grow: 1;
+    }
+    .filterDiv h5{
+        text-align: center !important;
+        margin-bottom: 1rem;
+    }
+    
+  }
+/* Large Desktops and TVs */
+@media only screen and (min-width: 1440px) {
+    .col-md-4{
+        flex: 0 0 20.333333%;
+        padding: 0 !important;
     }
   }

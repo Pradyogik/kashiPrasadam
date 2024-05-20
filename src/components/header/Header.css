@@ -51,4 +51,39 @@ left: 1rem;
         border-right: none;
     }
   }
+  @media only screen and (max-width: 767px) {
+    .searchInput{
+        width: 45rem !important;
+       
+    }
+    .nav-item{
+        margin-right: 0 !important;
+    }
+    #navbarSupportedContent .navbar-nav{
+      
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .SubHeader .nav-item{
+        border-right: none;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .searchInput{
+        width: 57rem !important;
+       
+    }
+    .nav-item{
+        margin-right: 0 !important;
+    }
+    #navbarSupportedContent .navbar-nav{
+      
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .SubHeader .nav-item{
+        border-right: none;
+    }
+  }
 

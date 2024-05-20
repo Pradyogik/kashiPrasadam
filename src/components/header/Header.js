@@ -44,7 +44,7 @@ function Header(){
         <NavLink to={'/cart'} className="btns"> <img src={button1}/> </NavLink>
       </li>
       <li className="nav-item mr-3">
-      <NavLink to={'/login'} className="btns"> <img src={button2}/> </NavLink>
+      <NavLink to={''} className="btns"> <img src={button2}/> </NavLink>
         
       </li>
       <li className="nav-item">

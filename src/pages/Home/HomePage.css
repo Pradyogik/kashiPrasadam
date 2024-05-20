@@ -173,7 +173,7 @@
 }
 
 /* Large Desktops and TVs */
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px)  {
   /* Styles for large desktops and TVs */
   .categoriesSubContainer {
     top: -9rem;
@@ -190,7 +190,7 @@
     font-size: 2.5rem;
   }
 }
-@media only screen and (min-width: 1677px) {
+@media only screen and (min-width: 1665px) and (max-width: 1765px) {
   .categoriesSubContainer {
     top: -8.4rem;
     /* margin: 0 9rem 0 9.1rem ; */
@@ -200,13 +200,148 @@
     /* height: 10rem; */
     width: 300px;
   }
-  .card:last-child {
+  /* .card:last-child {
     margin-right: 0rem;
+  } */
+  .card-img-overlay h5 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 1766px) and (max-width: 1865px) {
+  .categoriesSubContainer {
+    top: -8.4rem;
+    /* margin: 0 9rem 0 9.1rem ; */
+  }
+  .card {
+    margin-right: 10rem;
+    width: 300px;
+  }
+  /* .card:last-child {
+    margin-right: 0rem;
+  } */
+  .card-img-overlay h5 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 1866px) and (max-width: 1965px) {
+  .categoriesSubContainer {
+    top: -8.4rem;
+    /* margin: 0 9rem 0 9.1rem ; */
+  }
+  .card {
+    margin-right: 11rem;
+    width: 300px;
+  }
+  .card:last-child {
+    margin-right: -2rem;
   }
   .card-img-overlay h5 {
     font-size: 2.5rem;
   }
 }
+@media only screen and (min-width: 1966px) and (max-width: 2065px) {
+
+  .categoriesSubContainer {
+    top: -8.4rem;
+    /* margin: 0 9rem 0 9.1rem ; */
+  }
+  .card {
+    margin-right: 12rem;
+    width: 300px;
+  }
+  .card:last-child {
+    margin-right: -2rem;
+  }
+  .card-img-overlay h5 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 2066px) and (max-width: 2165px) {
+
+  .categoriesSubContainer {
+    top: -8.4rem;
+    /* margin: 0 9rem 0 9.1rem ; */
+  }
+  .card {
+    margin-right: 12rem;
+    width: 310px;
+  }
+  .card:last-child {
+    margin-right: -2rem;
+  }
+  .card-img-overlay h5 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 2166px) and (max-width: 2265px) {
+
+  .categoriesSubContainer {
+    top: -8.4rem;
+    /* margin: 0 9rem 0 9.1rem ; */
+  }
+  .card {
+    margin-right: 14rem;
+    width: 320px;
+  }
+  .card:last-child {
+    margin-right: -2rem;
+  }
+  .card-img-overlay h5 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 2266px) and (max-width: 2365px) {
+
+  .categoriesSubContainer {
+    top: -8.4rem;
+    /* margin: 0 9rem 0 9.1rem ; */
+  }
+  .card {
+    margin-right: 16rem;
+    width: 330px;
+  }
+  .card:last-child {
+    margin-right: -2rem;
+  }
+  .card-img-overlay h5 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 2366px) and (max-width: 2465px) {
+
+  .categoriesSubContainer {
+    top: -8.4rem;
+    /* margin: 0 9rem 0 9.1rem ; */
+  }
+  .card {
+    margin-right: 18rem;
+    width: 340px;
+  }
+  .card:last-child {
+    margin-right: -2rem;
+  }
+  .card-img-overlay h5 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 2466px) and (max-width: 2565px) {
+
+  .categoriesSubContainer {
+    top: -8.4rem;
+    /* margin: 0 9rem 0 9.1rem ; */
+  }
+  .card {
+    margin-right: 20rem;
+    width: 350px;
+  }
+  .card:last-child {
+    margin-right: -2rem;
+  }
+  .card-img-overlay h5 {
+    font-size: 2.5rem;
+  }
+}
+
 /* to complete this card section till 2560 px  */
 /* our bestseller starts here */
 .OurBestSellerContainer {
