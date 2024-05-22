@@ -1,8 +1,4 @@
 .categoriesContainer {
-  /* background-image: url("../../images/Group\ 267.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #fdf7eb; */
   position: relative;
   padding: 0;
 }
@@ -26,15 +22,44 @@
   z-index: 10;
   /* background-color:  #fdf7eb; */
 }
-/* .categoriesSubContainer div:nth-child(1){
-    background-image: url("../../images/Handicraft.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+/* .categoriesSubContainer div:hover{
+ 
+
 } */
-.card-img-overlay h5 {
-  font-size: 2rem;
+
+.style_prevu_kit
+{
+ 
+
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.style_prevu_kit:hover
+{
+   
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+.card-img-overlay h2 {
+  /* font-size: 2rem; */
   margin-bottom: 0;
-  font-weight: 700;
+  font-weight: 600; 
+  letter-spacing: 1px; 
 }
 .card {
   border: none;
@@ -342,7 +367,6 @@
   }
 }
 
-/* to complete this card section till 2560 px  */
 /* our bestseller starts here */
 .OurBestSellerContainer {
   background-color: #fdf7eb;
@@ -390,6 +414,9 @@
   border: none;
   background: none;
 }
+.OurBestSellerChild2 .col-md-3{
+  padding-left: 15px;
+}
 /* Mobile Phones (Portrait) */
 @media only screen and (max-width: 480px) {
   /* Styles for mobile phones in portrait orientation */
@@ -408,26 +435,16 @@
   .OurBestSellerContainer {
     padding: 0;
   }
-  .OurBestSellerChild2 {
-    padding-left: 1.6rem !important;
-    padding-right: 1.6rem !important;
-  }
+  .OurBestSellerChild2 .col-md-3{
+    width: 90% !important;
+   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1439px) {
   .OurBestSellerContainer {
-    padding: 0;
+    padding-top: 10rem;
+    /* background-position: 160px 160px; */
   }
-  .OurBestSellerChild2 {
-    padding-left: 1.6rem !important;
-    padding-right: 1.6rem !important;
-  }
-  .bestSellerCard {
-    margin: 0;
-    margin-bottom: 3rem;
-  }
-  .bestSellerCard:last-child {
-    margin-right: 0;
-  }
+
 }
 
 /* new arrivals starts here */
@@ -447,17 +464,20 @@
   margin: 1rem;
 }
 .newArrivalsCard:last-child {
-  /* margin-right: 1rem; */
+  margin-right: 1rem;
 }
-.newArrivalsChild1 button {
+.newArrivalsChild1 button{
   text-decoration: underline;
   color: #f26414;
   border: none;
   background: none;
 }
+.newArrivalsChild2 .col-md-3{
+padding-left: 15px;
+}
 /* Mobile Phones (Portrait) */
 @media only screen and (max-width: 480px) {
-  /* Styles for mobile phones in portrait orientation */
+/* Styles for mobile phones in portrait orientation */
   .newArrivalsContainer {
     padding: 0;
   }
@@ -473,27 +493,19 @@
   .newArrivalsContainer {
     padding: 0;
   }
-  .newArrivalsChild2 {
-    padding-left: 1.6rem !important;
-    padding-right: 1.6rem !important;
-  }
+  .newArrivalsChild2 .col-md-3{
+    width: 90% !important;
+   }
+ 
 }
 @media only screen and (min-width: 768px) and (max-width: 1439px) {
   .newArrivalsContainer {
     padding-top: 10rem;
     /* background-position: 160px 160px; */
   }
-  .newArrivalsChild2 {
-    padding-left: 1.6rem !important;
-    padding-right: 1.6rem !important;
-  }
-  .newArrivalsCard {
-    margin: 0;
-    margin-bottom: 3rem;
-  }
-  /* .newArrivalsCard:last-child {
-    margin-right: 0rem;
-  } */
+ 
+ 
+
 }
 
 /* image Collage starts here */
@@ -504,6 +516,9 @@
   background-size: auto;
   padding-bottom: 6rem !important;
 }
+/* .imageCollage {
+  font-size: ;
+} */
 /* deals of the day starts here */
 .DODNav .nav-link {
   color: #848484 !important;
@@ -514,3 +529,156 @@
   color: #f26414 !important;
   text-decoration: underline;
 }
+.zero{
+  height: 500px;
+}
+.seven{
+  height: 250px;
+}
+.twelve{
+  height: 250px;
+
+}
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+  .imageCollage{
+    margin: 0;
+    padding: 0;
+  }
+  .zero{
+    flex-direction: column;
+    margin: 0;
+    height: auto;
+  }
+  .one{
+    width: 100% !important;
+  }
+  .two{
+    width: 100% !important;
+    margin-top: 1rem;
+  }
+  .seven{
+    flex-direction: column;
+    height: auto !important;
+  }
+  .eight{
+    width: 100% !important;
+  }
+  .ten{
+    margin-right: 0 !important;
+
+  }
+  .eleven{
+    width: 100% !important;
+    margin-top: 1rem !important;
+  }
+  .twelve{
+    height: auto !important;
+    flex-direction: column;
+  }
+  .thirteen
+  {
+    width: 100% !important;
+  }
+  .fourteen{
+    width: 100% !important;
+    margin-top: 1rem;
+  }
+  .fifteen{
+    margin-left: 0 !important;
+  }
+}
+
+/* Mobile Phones (Landscape) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .imageCollage{
+    margin: 0;
+    padding: 0 !important;
+  }
+
+  .zero{
+    flex-direction: column;
+    margin: 0;
+    height: auto;
+  }
+  .one{
+    width: 100% !important;
+  }
+  .two{
+    width: 100% !important;
+    margin-top: 1rem;
+  }
+  .seven{
+    flex-direction: column;
+    height: auto !important;
+  }
+  .eight{
+    width: 100% !important;
+  }
+  .ten{
+    margin-right: 0 !important;
+
+  }
+  .eleven{
+    width: 100% !important;
+    margin-top: 1rem !important;
+  }
+  .twelve{
+    height: auto !important;
+    flex-direction: column;
+  }
+  .thirteen
+  {
+    width: 100% !important;
+  }
+  .fourteen{
+    width: 100% !important;
+    margin-top: 1rem;
+  }
+  .fifteen{
+    margin-left: 0 !important;
+  }
+}
+
+/* Tablets (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .imageCollage{
+    margin: 0;
+    padding: 0 !important;
+  }
+  .zero{
+    height: 400px !important;
+  }
+  .imageCollageChild{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .seven{
+    height: 200px !important;
+  }
+  .twelve{
+    height: 200px !important;
+  }
+}
+
+/* Tablets (Landscape) */
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .imageCollage{
+    margin: 0;
+    padding: 0 !important;
+  }
+  .zero{
+    height: 400px !important;
+  }
+  .imageCollageChild{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .seven{
+    height: 200px !important;
+  }
+  .twelve{
+    height: 200px !important;
+  }
+}
+

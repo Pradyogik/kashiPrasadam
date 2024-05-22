@@ -19,3 +19,6 @@ code {
 body button{
   outline: none !important;
 }
+::-webkit-scrollbar{
+  display: none;
+}

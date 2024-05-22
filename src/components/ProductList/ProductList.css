@@ -1,0 +1,47 @@
+
+.ProductListChild2 .col-md-3{
+    padding-left: 15px !important;
+}
+
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+    /* Styles for mobile phones in portrait orientation */
+      .ProductListContainer {
+        padding: 0;
+      }
+    
+      .ProductListChild2 .col-md-3{
+        padding: 0px !important;
+    }
+    .ProductListChild2{
+      padding-right: 0 !important;
+    }
+    }
+    
+    /* Mobile Phones (Landscape) */
+    @media only screen and (min-width: 481px) and (max-width: 767px) {
+      /* Styles for mobile phones in landscape orientation */
+      .ProductListsContainer {
+        padding: 0;
+      }
+      .ProductListChild2 .col-md-3{
+        width: 90% !important;
+        padding: 0;
+       }
+    
+     
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1439px) {
+      .ProductListChild2 .col-md-3{
+       padding: 0;
+      }
+      .ProductListChild2 .col-md-3{
+        padding-left: 0px !important;
+    }
+    .ProductListChild2{
+        padding: 0;
+    }
+     
+    
+    }
+    

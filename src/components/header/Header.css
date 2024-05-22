@@ -5,7 +5,10 @@
     background-color: #FECEAD !important;
     /* margin-top: 6rem; */
 }
-
+/* header size thin */
+.mainHeader .navbar{
+    padding: 0 1rem;
+}
 .btns{
     border: none;
     background: none;
@@ -60,7 +63,7 @@ left: 1rem;
         margin-right: 0 !important;
     }
     #navbarSupportedContent .navbar-nav{
-      
+
         flex-direction: row;
         justify-content: space-evenly;
     }

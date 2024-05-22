@@ -16,8 +16,6 @@ import { Link, NavLink } from "react-router-dom";
 function Categories(){
    
 
-
-
     return(<>
     
 
@@ -25,48 +23,50 @@ function Categories(){
         <div className="categoriesSubContainer">
 
                 
-   <div className="card bg-dark text-white"> 
+   <div className="card bg-dark text-white style_prevu_kit">
+   <NavLink to={'/brass'}> 
   <img className="card-img" src={div1Img} alt="Card image"/>
   <div className="card-img-overlay d-flex flex-column justify-content-end align-items-center">
-  <NavLink to={'/brass'}>  <h5 className="card-title font-weight-bold text-light">Brass Items</h5> </NavLink>
-    {/* to link these texts to a page */}
-    
+    <h2 className="card-title  text-light">Brass Items</h2> 
+    {/* to link these texts to a page */} 
   </div>
+  </NavLink>
   </div>
   
 
-  <div className="card bg-dark text-white">
+  <div className="card bg-dark text-white style_prevu_kit">
+  <NavLink to={'/mala'}>
   <img className="card-img" src={div2Img} alt="Card image"/>
   <div className="card-img-overlay d-flex flex-column justify-content-end align-items-center">
-  <NavLink to={'/brass'}><h5 className="card-title  text-light">Rudraksha</h5> </NavLink>
+  <h2 className="card-title  text-light">Rudraksha</h2>
     {/* to link these texts to a page */}
   </div>
+  </NavLink>
   </div>
 
 
-  <div className="card bg-dark text-white">
+  <div className="card bg-dark text-white style_prevu_kit">
+  <NavLink to={'/more'}>
   <img className="card-img " src={div3Img} alt="Card image"/>
   <div className="card-img-overlay d-flex flex-column justify-content-end align-items-center">
-  <NavLink to={'/brass'}><h5 className="card-title  text-light">Handicrafts</h5> </NavLink>
+  <h2 className="card-title  text-light">Handicrafts</h2> 
     {/* to link these texts to a page */}
-
   </div>
+  </NavLink>
   </div>
 
 
-  <div className="card bg-dark text-white">
+  <div className="card bg-dark text-white style_prevu_kit">
+  <NavLink to={'/brass'}>
   <img className="card-img" src={div4Img} alt="Card image"/>
   <div className="card-img-overlay d-flex flex-column justify-content-end align-items-center">
-  <NavLink to={'/brass'}><h5 className="card-title  text-light">Paintings</h5></NavLink>
+ <h2 className="card-title  text-light">Paintings</h2>
     {/* to link these texts to a page */}
 
   </div>
+  </NavLink>
   </div>
-                
-
-               
-
-            
+                          
              
 </div>
 <img className="catogoryFooterImg img img-fluid" src={divFooterImg}></img>

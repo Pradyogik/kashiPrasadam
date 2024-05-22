@@ -45,7 +45,7 @@ function DealsOfTheDay(){
             aria-selected={activeTab === "idols"}
             onClick={() => handleTabClick("idols")}
           >
-            Idols
+          <h5>  Idols </h5>
           </a>
         </li>
         <li className="nav-item">
@@ -59,7 +59,7 @@ function DealsOfTheDay(){
             aria-selected={activeTab === "malas"}
             onClick={() => handleTabClick("malas")}
           >
-            Malas
+          <h5> Malas</h5> 
           </a>
         </li>
         <li className="nav-item">
@@ -73,7 +73,7 @@ function DealsOfTheDay(){
             aria-selected={activeTab === "handicrafts"}
             onClick={() => handleTabClick("handicrafts")}
           >
-            Handicrafts
+          <h5>Handicrafts</h5>  
           </a>
         </li>
         <li className="nav-item">
@@ -87,7 +87,7 @@ function DealsOfTheDay(){
             aria-selected={activeTab === "others"}
             onClick={() => handleTabClick("others")}
           >
-            Others
+          <h5>Others</h5>  
           </a>
         </li>
       </ul>

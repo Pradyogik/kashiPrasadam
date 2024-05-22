@@ -72,22 +72,118 @@ function Footer(){
 			<div class="container-fluid second_class_bdr">
 			<div class="row mr-0">
 				<div class="col-md-3 col-sm-6 footerLogo">
-
 					<div class="footer-logo"><img src={footerLogo} alt="logo"/>
+					<div class="">
+					<h3>Contact</h3>
+					<ul class="footer-links contact-links">
+						<li><a href="#">
+                           <h6>
+						   <i> <img src={contact} /></i>
+                            +91-542-2400045
+						   </h6>
+                        </a>
+						</li>
+
+						<li>
+                            <a href="#">
+							<h6>
+							<i> <img src={social} /> </i>
+                            +91-63931-31608
+							</h6>
+                            </a>
+						</li>
+
+                        <li><a href="#">
+                            <h6>
+							<i> <img src={mail} /> </i>
+                            skvthelpdesk@gmail.com
+							</h6>
+                        </a>
+						</li>
+
+                        <li><a href="#">
+                            <h6>
+							<i> <img src={address} /> </i>
+                            Shri Kashi Vishwanath TempleTrust Helpdesk
+                            Near Shapuri Mall, Bansfatak, Varanasi- 221001
+							</h6>
+                        </a>
+						</li>
+					</ul>
+				</div>
 					</div>
 				</div>
 				<div class="col-md-2 col-sm-6">
 					<h3>Quick  Links</h3>
 					<ul class="footer-links">
-						<li><a href="#">Sugam Darshan</a>
+						<li><a href="#"><h6>Sugam Darshan</h6></a>
 						</li>
-						<li><a href="#">How To Donate</a>
+						<li><a href="#"><h6>How To Donate</h6></a>
 						</li>
-						<li><a href="#">Shri Kashi Vishwanath App</a>
+						<li><a href="#"><h6>Shri Kashi Vishwanath App</h6></a>
 						</li>
-						<li><a href="#">Live Darshan</a>
+						<li><a href="#"><h6>Live Darshan</h6></a>
 						</li>
-						<li><a href="#" target="_blank">Guest House</a>
+						<li><a href="#" target="_blank"><h6>Guest House</h6></a>
+						</li> 
+						{/*  */}
+						<li><a href="#"><h6>Pooja Items</h6></a>
+						</li>
+						<li><a href="#"><h6>Religious Statues</h6></a>
+						</li>
+						<li><a href="#"><h6>Brass Decor</h6></a>
+						</li>
+						<li><a href="#"><h6>Rudraksha Beads</h6></a>
+						</li>
+						<li><a href="#"><h6>Spiritual Clothing</h6></a>
+						</li>
+						{/*  */}
+						<li><a href="#"><h6>Sacred Paintings</h6></a>
+						</li>
+						<li><a href="#"><h6>Kashi Vishwanath Prasad</h6></a>
+						</li>
+						<li><a href="#"><h6>Handcrafted Wooden Items</h6></a>
+						</li>
+						<li><a href="#"><h6>Attar and Fragrances</h6></a>
+						</li>
+						<li><a href="#"><h6>Religious Gifts</h6></a>
+						</li>
+						
+					</ul>
+				</div>
+				{/*  */}
+				<div class="col-md-2 col-sm-6">
+					<h3>Products</h3>
+					<ul class="footer-links">
+						<li><a href="#"><h6>Hindu Religious Artifacts</h6></a>
+						</li>
+						<li><a href="#"><h6>Traditional Indian Decor</h6></a>
+						</li>
+						<li><a href="#"><h6>Spiritual Accessories</h6></a>
+						</li>
+						<li><a href="#"><h6>Vedic Rituals Supplies</h6></a>
+						</li>
+						<li><a href="#"><h6>Divine Clothing</h6></a>
+						</li> 
+						{/*  */}
+						<li><a href="#"><h6>Ethnic Indian Paintings</h6></a>
+						</li>
+						<li><a href="#"><h6>Kashi Vishwanath Prasad</h6></a>
+						</li>
+						<li><a href="#"><h6>Artisanal Indian Crafts</h6></a>
+						</li>
+						<li><a href="#"><h6>Aromatic Indian Fragrances</h6></a>
+						</li>
+						<li><a href="#"><h6>Temple Accessories</h6></a>
+						</li>
+						{/*  */}
+						<li><a href="#"><h6>Spiritual Jewellery</h6></a>
+						</li>
+						<li><a href="#"><h6>Sacred Incense</h6></a>
+						</li>
+						<li><a href="#"><h6>Yantras and Talismans</h6></a>
+						</li>
+						<li><a href="#"><h6>Religious Idols</h6></a>
 						</li>
 						
 					</ul>
@@ -95,19 +191,19 @@ function Footer(){
 				<div class="col-md-2 col-sm-6">
 					<h3>Information</h3>
 					<ul class="footer-category">
-						<li><a href="#">Refund &amp; Return Policy</a>
+						<li><a href="#"><h6>Refund &amp; Return Policy</h6></a>
 						</li>
-						<li><a href="#">Privacy Policy</a>
+						<li><a href="#"><h6>Privacy Policy</h6></a>
 						</li>
-						<li><a href="#">FAQs</a>
+						<li><a href="#"><h6>FAQs</h6></a>
 						</li>
-						<li><a href="#">Contact Us</a>
+						<li><a href="#"><h6>Contact Us</h6></a>
 						</li>
 						
 					</ul>
 					<div class="clearfix"></div>
 				</div>
-				<div class="col-md-3 col-sm-6">
+				{/* <div class="col-md-3 col-sm-6">
 					<h3>Contact</h3>
 					<ul class="footer-links contact-links">
 						<li><a href="#">
@@ -135,7 +231,7 @@ function Footer(){
                         </a>
 						</li>
 					</ul>
-				</div>
+				</div> */}
 			</div>
 			
 		</div>

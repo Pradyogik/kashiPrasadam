@@ -10,6 +10,7 @@ import img from '../../images/Rectangle 2.png';
 import img2 from '../../images/image 301.png';
 import Filter from "../../components/Filter/Filter";
 import Item from "../../components/Item/Item";
+import DPSeo from "../../components/DetailedProduct/DPSeo";
 
 
 
@@ -27,12 +28,17 @@ function Rudraksha(){
       </div>
         <div className="Items">
         <div className="row">
-        <Item size={'col-md-4'} cardName={'newArrivalsCard'}  />
-        <Item size={'col-md-4'} cardName={'newArrivalsCard'}  />
-        <Item size={'col-md-4'} cardName={'newArrivalsCard'}  />
-        <Item size={'col-md-4'} cardName={'newArrivalsCard'}  />
-        <Item size={'col-md-4'} cardName={'newArrivalsCard'}  />
-        <Item size={'col-md-4'} cardName={'newArrivalsCard'}  />
+        <Item size={'col-md-4'} cardName={'newArrivalsCard'} ogImg={'https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png'} hoverImg={'https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg'}  />
+
+        <Item size={'col-md-4'} cardName={'newArrivalsCard'} ogImg={'https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png'} hoverImg={'https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg'} />
+
+        <Item size={'col-md-4'} cardName={'newArrivalsCard'} ogImg={'https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png'} hoverImg={'https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg'} />
+
+        <Item size={'col-md-4'} cardName={'newArrivalsCard'} ogImg={'https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png'} hoverImg={'https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg'}  />
+
+        <Item size={'col-md-4'} cardName={'newArrivalsCard'} ogImg={'https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png'} hoverImg={'https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg'} />
+
+        <Item size={'col-md-4'} cardName={'newArrivalsCard'} ogImg={'https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/1.png'} hoverImg={'https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg'} />
 
 
 
@@ -42,6 +48,7 @@ function Rudraksha(){
         </div>
     </div>
     <HeroImage img1={img2}/>
+    <DPSeo/>
     </>)
 }
 

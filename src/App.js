@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/header/Header.js';
 import HomePage from './pages/Home/HomePage.js';
 
-import { Route , Routes  } from 'react-router';
+import { Route , Routes , useLocation  } from 'react-router';
 import { NavLink } from 'react-router-dom';
 import Footer from './components/Footer/Footer.js';
 import Rudraksha from './pages/Rudraksha/Rudraksha.js';
@@ -18,40 +18,37 @@ import Brass from './pages/Brass/Brass.js';
 import More from './pages/More/More.js';
 import PujaItems from './pages/PujaItems/PujaItems.js';
 import SKVT from './pages/SKVT/SKVT.js';
+import { useState } from 'react';
 
 
 
 
 
 function App() {
-  
+  const location = useLocation();
+  const noHeaderFooterPaths = ['/login', '/register'];
+
   return (
     <div className="App">
-       <Header/>
- <Routes>
-    <Route path="/" element={<HomePage/>}></Route>
-    <Route path="/mala" element={<Rudraksha/>}></Route>
-    <Route path="/brass" element={<Brass/>}></Route>
-    <Route path="/more" element={<More/>}></Route>
-    <Route path="/puja-item" element={<PujaItems/>}></Route>
-    <Route path="/skvt-special" element={<SKVT/>}></Route>  
-    <Route path="/register" element={<Register/>}></Route>
-    <Route path="/login" element={<Login/>}></Route>
-    <Route path="/resetPassword" element={<ResetPassword/>}></Route>
-    <Route path="/updatePassword" element={<UpdatePassword/>}></Route>
-    <Route path="/detailedProduct" element={<DetailedProduct/>}></Route>
-    {/* you can customize detailed products link to take id and display product */}
-    <Route path="/cart" element={<AddToCart/>}></Route>
-
-</Routes>
-
-      <Footer/>
-
-
-
-      
+      {!noHeaderFooterPaths.includes(location.pathname) && <Header />}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/mala" element={<Rudraksha />} />
+        <Route path="/brass" element={<Brass />} />
+        <Route path="/more" element={<More />} />
+        <Route path="/puja-item" element={<PujaItems />} />
+        <Route path="/skvt-special" element={<SKVT />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/resetPassword" element={<ResetPassword />} />
+        <Route path="/updatePassword" element={<UpdatePassword />} />
+        <Route path="/detailedProduct" element={<DetailedProduct />} />
+        <Route path="/cart" element={<AddToCart />} />
+      </Routes>
+      {!noHeaderFooterPaths.includes(location.pathname) && <Footer />}
     </div>
   );
 }
+
 
 export default App;

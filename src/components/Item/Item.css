@@ -1,10 +1,50 @@
 .card{
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
-    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
-    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
-  /* margin: 1rem; */
+
+    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 0px rgba(0, 0, 0, 0.11),
+    0 0px 0px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+    0 0px 0px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11); */
+  
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
 }
 .divertToProduct{
   color: black !important;
   
 }
+
+.mouse_Style
+{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.mouse_Style:hover
+{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+.mouse_Style img{
+    height: 283px;
+    object-fit: cover;
+}
+/* Tablets (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for tablets in portrait orientation */
+    .mouse_Style img{
+        height: 161px;
+        object-fit: cover;
+    }
+  }
+  

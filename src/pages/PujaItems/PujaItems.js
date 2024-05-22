@@ -10,6 +10,7 @@ import img from '../../images/Rectangle 2.png';
 import img2 from '../../images/image 301.png';
 import Filter from "../../components/Filter/Filter";
 import Item from "../../components/Item/Item";
+import DPSeo from "../../components/DetailedProduct/DPSeo";
 
 
 
@@ -38,6 +39,7 @@ function More(){
         </div>
     </div>
     <HeroImage img1={img2}/>
+    <DPSeo/>
     </>)
 }
 

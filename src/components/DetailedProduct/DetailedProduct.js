@@ -16,6 +16,7 @@ import OurBestSeller from '../../pages/Home/OurBestSeller';
 import ProductList from '../ProductList/ProductList';
 import HeroImage from '../HeroImage/HeroImage';
 import IMGProduct from '../../images/image 301.png'
+import DPSeo from './DPSeo';
 
 const DetailedProduct = () => {
   // Initialize the state with the initial image URL
@@ -85,7 +86,7 @@ const DetailedProduct = () => {
         </div>
         <div className='d-flex'>
         <h3> &#8377; 800 </h3>
-        <h3 className='text-muted  pl-5 mb-0'>  <del>&#8377; 1200</del></h3>
+        <h4 className='text-muted  pl-3 mt-1'>  <del>&#8377; 1200</del></h4>
         </div>
         <div>
             <p className=' font600 d-inline-block mb-0'>Brands : <p className='text-muted d-inline-block font400 mb-0'> SVKT</p></p>
@@ -128,7 +129,7 @@ The ruling god is Lord Kalagni Rudra and the ruling planet is Jupiter. Removes n
     </div> 
     <Accordian/>
    <div  style={{ outline : 'rgb(128 128 128 / 20%) solid 1px', backgroundColor : "white", padding : '1rem' , borderRadius : '5px' }} className='container-fluid m-0 mt-3'>
-   <ProductList title={'Similar Products'} divTitle={'divCD'}/>
+   <ProductList  title={'Similar Products'} divTitle={'divCD'}/>
    </div>
 
    <div  style={{ outline : 'rgb(128 128 128 / 20%) solid 1px', backgroundColor : "white", padding : '1rem' , borderRadius : '5px' }} className='container-fluid m-0 mt-3'>
@@ -139,6 +140,7 @@ The ruling god is Lord Kalagni Rudra and the ruling planet is Jupiter. Removes n
    <ProductList title={'Most Viewed Product of this Category'} divTitle={'divEx'}/>
    </div>
    <HeroImage img1={IMGProduct} /> 
+   <DPSeo/>
     </div> </>);
 };
 
