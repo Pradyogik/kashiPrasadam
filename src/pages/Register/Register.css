@@ -29,6 +29,10 @@
 }
 .formContainer label{
     font-weight: 500;
+    margin-bottom: 0;
+}
+.formContainer .form-group{
+    margin-bottom: .5rem;
 }
 .formContainer a {
     text-decoration: underline;
@@ -48,9 +52,10 @@
     }
     .registerImageContainer{
         margin-right: 0;
+        height: 50% !important;
     }
     .formContainer{
-        width: 100%;
+        width: 100%;   
     }
     
 }
@@ -59,11 +64,11 @@
 
     .registerContainer{
         flex-direction: column;
-        margin: 0 !important;
+        /* margin: 0 !important; */
     }
     .formContainer{
         width: 90%;
-        margin: 3rem !important;
+        margin: 0 2rem 0 2.5rem !important;
     }
     .registerImageContainer{
         margin: 0 !important;
@@ -72,19 +77,21 @@
 /* Small Laptops and Desktops */
 
  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-   
-    
+    .registerContainer{
+        align-items: center;
+        justify-content: space-evenly;
+    }
     .registerImageContainer{
    
         margin: 0 !important;
         justify-content: space-between;
-        flex-grow: 2;
+        /* flex-grow: 2; */
     }
     .formContainer{
         width: 47%;
         margin: 0 !important;
         margin-right: 1rem !important;
-        margin-top: 2rem !important;
+        /* margin-top: 2rem !important; */
 
     }
   }
@@ -93,21 +100,39 @@
   @media only screen and (min-width: 1200px) and (max-width: 1440px) {
     .registerImageContainer img {
         object-fit: none;
-    }  }
+    } 
+    .formContainer{
+        width: 35% !important;
+        /* margin-right: 0 !important; */
+    }
+
+}
   
   /* Large Desktops and TVs */
  @media only screen and (min-width: 1440px)  {
+    .registerContainer{
+        align-items: center;
+        justify-content: space-evenly;
+    }
     .registerImageContainer{
         margin: 0 !important;
         justify-content: space-between;
-        flex-grow: 2;
+        /* flex-grow: 2; */
     }
     .formContainer{
-        width: 47%;
-        margin: 0 !important;
+        width: 35% !important;
+        margin-right: 0 !important;
+        /* margin: 0 !important;
         margin-right: 1rem !important;
         margin-top: 2rem !important;
-        flex-grow: 1;
+        flex-grow: 1; */
     }
   } 
-  
+  @media only screen and (min-width: 1441px) and (max-width: 2560px) {
+    .formContainer{
+        width: auto !important;
+        margin-right: 0 !important;
+        
+    }
+  }
+

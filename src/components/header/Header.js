@@ -29,26 +29,26 @@ function Header(){
     return(<>
   <div style={{boxShadow : '8px 8px 3px 2px rgba(0, 0, 0, .1)'}} className="container-fluid mainHeader p-0 sticky-top">
   <nav style={myStyle} className="navbar navbar-expand-lg navbar-light ">
-  <a className="navbar-brand" href="#"> <img src={logo}/> </a>
+  <a className="navbar-brand" href="#"> <img height={'50px'} src={logo}/> </a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
   <form className="form-inline my-2  my-lg-auto ml-auto searchDiv">
-      <i> <img style={{background: "none"}} src={searchIcon}/> </i>
+      <i> <img  style={{background: "none"}} src={searchIcon}/> </i>
       <input className="form-control mr-sm-2 px-5 searchInput" type="search" placeholder="Search for names..." aria-label="Search"/>
       {/* <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> */}
     </form>
     <ul className="navbar-nav  ml-auto">
       <li className="nav-item mr-3">
-        <NavLink to={'/cart'} className="btns"> <img src={button1}/> </NavLink>
+        <NavLink to={'/cart'} className="btns"> <img height={'40px'} src={button1}/> </NavLink>
       </li>
       <li className="nav-item mr-3">
-      <NavLink to={''} className="btns"> <img src={button2}/> </NavLink>
+      <NavLink to={''} className="btns"> <img height={'40px'} src={button2}/> </NavLink>
         
       </li>
       <li className="nav-item">
-      <NavLink to={'/register'} className="btns"> <img src={button3}/> </NavLink>   
+      <NavLink to={'/register'} className="btns"> <img height={'40px'} src={button3}/> </NavLink>   
       </li>
     </ul>
    

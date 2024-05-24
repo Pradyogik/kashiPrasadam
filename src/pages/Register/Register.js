@@ -83,7 +83,7 @@ function Register(){
             <img className="" src={registerImg}/>
         </div>
           
-        <div className="formContainer mr-auto my-5">
+        <div className="formContainer mr-auto my-1">
             <h2 className="text-center">Create Account</h2>
     <form onSubmit={registerSubmitEvent} className="">
   <div class="form-group">
@@ -122,7 +122,7 @@ function Register(){
   
 </form>
 <p className="mt-3 text-muted">By creating an account, you agree to our  <NavLink to={''}>Terms of Use </NavLink> and our <NavLink to={""}>Privacy Policy</NavLink>.</p>
-<p className="text-muted"> Already have an account ?   <NavLink to={"/login"}>Sign-in</NavLink>.</p>
+<p className="text-muted mb-0"> Already have an account ?   <NavLink to={"/login"}>Sign-in</NavLink>.</p>
 
         </div>
     </div>

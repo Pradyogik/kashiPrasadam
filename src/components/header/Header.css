@@ -40,7 +40,7 @@ left: 1rem;
 /* Mobile Phones (Portrait) */
 @media only screen and (max-width: 480px) {
     .searchInput{
-        width: 20rem !important;
+        width: 17rem !important;
     }
     .nav-item{
         margin-right: 0 !important;
@@ -53,8 +53,12 @@ left: 1rem;
     .SubHeader .nav-item{
         border-right: none;
     }
+    .mainHeader .navbar-brand img{
+        height: 40px;
+    }
+    
   }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
     .searchInput{
         width: 45rem !important;
        
@@ -70,11 +74,14 @@ left: 1rem;
     .SubHeader .nav-item{
         border-right: none;
     }
+    .mainHeader .navbar-brand img{
+        height: 40px;
+    }
   }
 
-  @media only screen and (max-width: 991px) {
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
     .searchInput{
-        width: 57rem !important;
+        width: 45rem !important;
        
     }
     .nav-item{
@@ -87,6 +94,9 @@ left: 1rem;
     }
     .SubHeader .nav-item{
         border-right: none;
+    }
+    .mainHeader .navbar-brand img{
+        height: 40px;
     }
   }
 
